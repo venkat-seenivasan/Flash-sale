@@ -83,11 +83,9 @@
                         <span class="navbar-toggler-icon"></span>                    </button>
 
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto">  
-                            <a href="index.php" class="nav-item nav-link active">HOME</a>
-						        <a href="SRegister.php" class="nav-item nav-link ">REGISTER</a>
-                            <a href="user.php" class="nav-item nav-link ">LOGIN</a>    
-							 <a href="gallery.php" class="nav-item nav-link">GALLERY</a>                            
+                        <div class="navbar-nav mr-auto">  <a href="index.php" class="nav-item nav-link">HOME</a>
+						       
+							 <a href="gallery.php" class="nav-item nav-link active">GALLERY</a>                            
                              
                             <a href="contact.html" class="nav-item nav-link">CONTACT</a>  
 							                      </div>
@@ -99,136 +97,12 @@
 
 
         <!-- Carousel Start -->
-        <div class="carousel">
-            <div class="container-fluid">
-                <div class="owl-carousel">
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-1.jpg" alt="Image">                        </div>
-                        <div class="carousel-text">
-                            <h3></h3>
-                            <h1></h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-2.jpg" alt="Image">                        </div>
-                        <div class="carousel-text">
-                            <h1></h1>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="img/carousel-3.jpg" alt="Image">                        </div>
-                        <div class="carousel-text">
-                            <h1></h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+         
         <!-- Carousel End -->
-        <div class="team">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>PRODUCT SALES</p>
-                    <h2>Our Product Sales on going</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Team Image" style="height:280px; border:solid 5px #FF0000">
-                            </div>
-                            <div class="team-text">
-                                <h2>MOBILE</h2>
-                                <p>ELECTRONIC</p>
-                                <div class="team-social">
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Team Image" style="height:280px; border:solid 5px #FF0000">
-                            </div>
-                            <div class="team-text">
-                                <h2>MOBILE</h2>
-                                <p>ELECTRONIC</p>
-                                <div class="team-social">
-                                     
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Team Image" style="height:280px; border:solid 5px #FF0000">
-                            </div>
-                            <div class="team-text">
-                              <h2>MOBILE</h2>
-                                <p>ELECTRONIC</p>
-                                <div class="team-social">
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Team Image" style="height:280px; border:solid 5px #FF0000">
-                            </div>
-                            <div class="team-text">
-                               <h2>MOBILE</h2>
-                                <p>ELECTRONIC</p>
-                                <div class="team-social">
-                                  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+         
 
         <!-- About Start -->
-        <div class="about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img">
-                            <img src="img/about.jpg" alt="Image">                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="section-header text-left">
-                            <p>About Us</p>
-                            <h2>Flash Sales  </h2>
-                        </div>
-                        <div class="about-content">
-                            <p align="justify">
-                                Shopping online is a time-saving alternative to traditional in-store purchases, especially 
-in the digital landscape of India. The convenience of having the world at one's fingertips is 
-crucial for survival in today's fast-paced environment. However, the bourgeoisie often finds it 
-challenging to fulfil their desires. In response, merchants employ flash sales as a strategic tool, 
-simplifying comparison shopping and attracting bargain hunters. The proposed Instant and 
-Merchant Flash Sale Monitoring System is designed to record and provide a comprehensive 
-database of offers in various shops, playing a vital role in enhancing the online shopping 
-experience. 
-The system addresses a common phenomenon where users fill their online shopping 
-carts but often abandon them without making a purchase, emphasizing the importance of 
-creating a sense of urgency. Flash sales become a motivating factor, encouraging users to make 
-quick decisions. These time-limited promotions offered by merchants are a key element in 
-creating a dynamic online shopping environment, leading to a positive conclusion for both 
-sellers and buyers.              </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+         
         <!-- About End -->
 
 
@@ -239,48 +113,7 @@ sellers and buyers.              </p>
         
         
         <!-- Facts Start -->
-        <div class="facts" data-parallax="scroll" data-image-src="img/facts.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="fa fa-map-marker-alt"></i>
-                            <div class="facts-text">
-                                <h3 data-toggle="counter-up">10000</h3>
-                                <p>User </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="fa fa-user"></i>
-                            <div class="facts-text">
-                                <h3 data-toggle="counter-up">850</h3>
-                                <p>E-Commerce</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="fa fa-users"></i>
-                            <div class="facts-text">
-                                <h3 data-toggle="counter-up">1500</h3>
-                                <p>Product</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="fa fa-check"></i>
-                            <div class="facts-text">
-                                <h3 data-toggle="counter-up">5000</h3>
-                                <p>Total Sales</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+         
         <!-- Facts End -->
         
         
@@ -314,17 +147,85 @@ sellers and buyers.              </p>
                     <div class="col-lg-4">
                         <div class="blog-item">
                             <div class="blog-img">
-                                <img src="img/blog-1.jpg" alt="Image">
+                                <img src="img/blog-2.jpg" alt="Image" style="height:240px">
+                                <div class="meta-date">
+                                    <span>01</span>
+                                    <strong>Jan</strong>
+                                    <span>2024</span>                                </div>
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">New Year Sale</a></h3>
+                                <p>
+                                     .Shopping online is a time-saving alternative to traditional in-store purchases, especially 
+in the digital landscape of India.                               </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/raksha-b.jpg" alt="Image" style="height:240px">
+                                <div class="meta-date">
+                                    <span>05</span>
+                                    <strong>sep</strong>
+                                    <span>2024</span>                                </div>
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Flash Sales</a></h3>
+                                <p>
+                                     Shopping online is a time-saving alternative to traditional in-store purchases, especially 
+in the digital landscape of India.                             </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/book.avif" alt="Image" style="height:240px">
                                 <div class="meta-date">
                                     <span>01</span>
                                     <strong>Jan</strong>
                                     <span>2045</span>                                </div>
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Mega Offer</a></h3>
+                                <h3><a href="#">Flash Sales</a></h3>
                                 <p>
-                                     .Shopping online is a time-saving alternative to traditional in-store purchases, especially 
-in the digital landscape of India.                               </p>
+                                     Shopping online is a time-saving alternative to traditional in-store purchases, especially 
+in the digital landscape of India.                             </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" alt="Image" style="height:240px">
+                                <div class="meta-date">
+                                    <span>01</span>
+                                    <strong>Jan</strong>
+                                    <span>2045</span>                                </div>
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Flash Sales</a></h3>
+                                <p>
+                                     Shopping online is a time-saving alternative to traditional in-store purchases, especially 
+in the digital landscape of India.                             </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" alt="Image" style="height:240px">
+                                <div class="meta-date">
+                                    <span>01</span>
+                                    <strong>Jan</strong>
+                                    <span>2045</span>                                </div>
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Flash Sales</a></h3>
+                                <p>
+                                     Shopping online is a time-saving alternative to traditional in-store purchases, especially 
+in the digital landscape of India.                             </p>
                             </div>
                         </div>
                     </div>

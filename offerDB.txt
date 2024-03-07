@@ -1,0 +1,189 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.1
+-- http://www.phpmyadmin.net
+-- 
+-- Host: localhost
+-- Generation Time: Feb 16, 2024 at 08:46 AM
+-- Server version: 5.0.45
+-- PHP Version: 5.2.5
+-- 
+-- dsfsdf
+-- 
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- Database: `offer`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `tb_breg`
+-- 
+
+CREATE TABLE `tb_breg` (
+  `id` int(11) NOT NULL,
+  `ename` varchar(100) NOT NULL,
+  `gender` varchar(100) NOT NULL,
+  `phone` varchar(100) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `uname` varchar(100) NOT NULL,
+  `pass` varchar(100) NOT NULL,
+  `img1` varchar(100) NOT NULL,
+  `status` varchar(50) NOT NULL,
+  `etype` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- 
+-- Dumping data for table `tb_breg`
+-- 
+
+INSERT INTO `tb_breg` (`id`, `ename`, `gender`, `phone`, `address`, `city`, `email`, `uname`, `pass`, `img1`, `status`, `etype`) VALUES 
+(2, 'vinoth kumar', 'Male', '7898978978', 'Trichy', 'Trichy', 'vinoth', 'vinoth', '123', '13.jpg', 'Free', ''),
+(3, 'vinoth', 'Female', '9856458484', 'Aruna Nagar', 'Trichy', 'vino@gmail.com', 'vino', '1234', 'bimgin.jpg', 'Free', 'Seller'),
+(4, 'ramesh', 'Male', '7845124578', 'Trichy', 'Trichy', 'ramesh@gmail.com', 'ramesh', '12345', '11.jpg', 'Free', ''),
+(5, 'ragu', 'Male', '09994562525', 'fdsgfdsfg', 'Trichy', 'ragu100@gmail.com', 'ragu', '123', 'birthday.jpg', 'Free', ''),
+(5, 'ragu', 'Male', '09994562525', 'fdsgfdsfg', 'Trichy', 'ragu100@gmail.com', 'ragu', '123', 'birthday.jpg', 'Free', ''),
+(6, 'Revathy', 'Female', '05645645645', 'Anna nagar', 'Trichy', 'revathy@gmail.com', 'reva', '123', '5.png', 'Free', ''),
+(7, 'ramesh', 'Female', '07845124578', 'Trichy', 'Trichy', 'grsoft2020@gmail.com', 're', '123', '2.png', 'Free', 'User'),
+(8, 'venkat', 'Male', '07845124578', '12,Anna nagar\r\nTrichy', 'Trichy', 'venkat@gmail.com', 'venkat', '123', '13.jpg', 'Free', 'User'),
+(9, 'gr', 'Male', '07845124578', 'Trichy', 'Trichy', 'grsoft2020@gmail.com', 'gr', '123', '111.jpg', 'Free', ''),
+(10, 'asas', 'Female', 'asfsadf', 'sadfsadf', 'Madurai', 'SDSDF', 'a', 'a', '111.jpg', 'Premium', ''),
+(11, 'ragu', 'Male', '', '3rdFloor Periyasamy Towers ,Chatram Bus Stand,\r\n3rdFloor Periyasamy Towers ,Chatram Bus Stand,', 'Trichy', 'aaaa@gmail.com', 'revathy', '1234567@', '111.jpg', 'Free', 'Seller'),
+(12, 'ragu', 'Male', '', 'Anna Nagar', 'Chennai', 'aaaa@gmail.com', 'revathy', '12345678', 'aaa.jpg', 'Free', 'User'),
+(13, 'Dinesh', 'Male', '', 'Ram Nagar\r\nSrriangam', 'Chennai', 'ram@gmail.com', 'dinesh', '12345678', '1.jpg', 'Free', 'User'),
+(14, 'saranya', 'Female', '', '12,Anna Nagar', 'Trichy', 'saran@gmail.com', 'saran', '12345678@', '124.jpg', 'Premium', 'User');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `tb_offer`
+-- 
+
+CREATE TABLE `tb_offer` (
+  `id` int(100) NOT NULL,
+  `ename` varchar(100) NOT NULL,
+  `sta` varchar(100) NOT NULL,
+  `edesc` varchar(100) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `phone` varchar(100) NOT NULL,
+  `etype` varchar(100) NOT NULL,
+  `vtype` varchar(100) NOT NULL,
+  `edate` varchar(50) NOT NULL,
+  `eday` varchar(100) NOT NULL,
+  `img` varchar(100) NOT NULL,
+  `uname` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- 
+-- Dumping data for table `tb_offer`
+-- 
+
+INSERT INTO `tb_offer` (`id`, `ename`, `sta`, `edesc`, `city`, `phone`, `etype`, `vtype`, `edate`, `eday`, `img`, `uname`) VALUES 
+(2, 'Mobile offer 2024', 'Premium', 'All product', 'Trichy', '9856235689', 'Mobile', '50%', '2024-01-30', '12-02-2024', 'big-sale-discount-promotion-banner-template-with-blank-product-podium-scene-graphic-free-vector.jpg', 're'),
+(3, 'Appo', 'Free', 'All product', 'Trichy', '9856235689', 'Mobile', '50%', '2024-01-11', '12-02-2024', 'post-2.jpg', 're'),
+(3, 'Mobile offer 2024', 'Free', 'All product', 'Trichy', '9856235689', 'Mobile', '50%', '2024-01-30', '12-02-2024', 'big-sale-discount-promotion-banner-template-with-blank-product-podium-scene-graphic-free-vector.jpg', 're'),
+(4, 'Mobile offer 2024', 'Free', 'All product', 'Trichy', '9856235689', 'Mobile', '50%', '2024-01-11', '12-02-2024', 'post-2.jpg', 're'),
+(5, 'Mobile offer 2024', 'Free', 'All product', 'Trichy', '9856235689', 'Mobile', '50%', '2024-01-30', '12-02-2024', 'big-sale-discount-promotion-banner-template-with-blank-product-podium-scene-graphic-free-vector.jpg', 're'),
+(6, 'Mobile offer 2024', 'Free', 'All product', 'Trichy', '9856235689', 'Mobile', '50%', '2024-01-11', '12-02-2024', 'post-2.jpg', 're'),
+(7, 'Mobile offer 2024', 'Free', 'All product', 'Trichy', '9856235689', 'Mobile', '50%', '2024-01-30', '12-02-2024', 'big-sale-discount-promotion-banner-template-with-blank-product-podium-scene-graphic-free-vector.jpg', 're'),
+(8, 'Mobile offer 2024', 'Free', 'All product', 'Trichy', '9856235689', 'Mobile', '50%', '2024-01-11', '12-02-2024', 'post-2.jpg', 'revathy'),
+(9, 'Dell Offer 50%', 'Premium', 'All Dell showroom', 'Trichy', '9856235689', 'LapTop', '50000', '2024-01-26', '12-02-2024', 'dell.jpg', 'venkat'),
+(10, 'Mega off', 'Free', 'aaa', 'Trichy', '7878748787', 'Mobile', '100', '16-02-2024', '12-02-2024', '1.jpg', 'revathy'),
+(11, 'surya mobile offwer', 'Free', 'ssssssss', 'Trichy', '9600243569', 'Mobile', '15000', '16-02-2024', '12-02-2024', '124.jpg', 'vino');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `tb_pay`
+-- 
+
+CREATE TABLE `tb_pay` (
+  `id` int(11) NOT NULL auto_increment,
+  `edate` varchar(1000) NOT NULL,
+  `ename` varchar(1000) NOT NULL,
+  `price` varchar(1000) NOT NULL,
+  `edesc` varchar(1000) NOT NULL,
+  `review` varchar(1000) NOT NULL,
+  `owner` varchar(100) NOT NULL,
+  `uname` varchar(1000) NOT NULL,
+  `pid` int(100) NOT NULL,
+  `pay` varchar(1000) NOT NULL,
+  `bname` varchar(1000) NOT NULL,
+  `card` varchar(1000) NOT NULL,
+  `ccv` varchar(1000) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+
+-- 
+-- Dumping data for table `tb_pay`
+-- 
+
+INSERT INTO `tb_pay` (`id`, `edate`, `ename`, `price`, `edesc`, `review`, `owner`, `uname`, `pid`, `pay`, `bname`, `card`, `ccv`) VALUES 
+(1, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', '12,Anna Nagar,Srirangam,Trichy', 're', 're', 2, 'Cash', 'SBI', '4353465456456', '345'),
+(2, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', '12,Anna Nagar,Srirangam,Trichy', 're', 're', 2, 'Cash', 'SBI', '4353465456456', '345'),
+(3, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', '12,Anna Nagar,Srirangam,Trichy', 're', 're', 2, 'Cash', 'SBI', '4353465456456', '345'),
+(4, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', '12,Anna Nagar,Srirangam,Trichy', 're', 're', 2, 'Debit Card', 'SBI', '4353465456456', '345'),
+(5, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', '12,Anna Nagar,Srirangam,Trichy', 're', 're', 2, 'Debit Card', 'SBI', '4353465456456', '345'),
+(6, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', 'ok', 're', 're', 2, 'Debit Card', 'KVB', '456456456456', '456'),
+(7, '26-01-2024', 'Dell Offer 50%', '50000', 'All Dell showroom', 'my ads premium ', 'venkat', 'venkat', 9, 'Debit Card', 'SBI', '453453245456', '243');
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `tb_reg`
+-- 
+
+CREATE TABLE `tb_reg` (
+  `id` int(11) NOT NULL,
+  `ename` varchar(100) NOT NULL,
+  `gender` varchar(100) NOT NULL,
+  `phone` varchar(100) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `uname` varchar(100) NOT NULL,
+  `pass` varchar(100) NOT NULL,
+  `img1` varchar(100) NOT NULL,
+  `etype` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- 
+-- Dumping data for table `tb_reg`
+-- 
+
+
+-- --------------------------------------------------------
+
+-- 
+-- Table structure for table `tb_review`
+-- 
+
+CREATE TABLE `tb_review` (
+  `id` int(11) NOT NULL auto_increment,
+  `edate` varchar(1000) NOT NULL,
+  `ename` varchar(1000) NOT NULL,
+  `price` varchar(1000) NOT NULL,
+  `edesc` varchar(1000) NOT NULL,
+  `review` varchar(1000) NOT NULL,
+  `owner` varchar(100) NOT NULL,
+  `uname` varchar(1000) NOT NULL,
+  `pid` int(100) NOT NULL,
+  `img1` varchar(1500) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+-- 
+-- Dumping data for table `tb_review`
+-- 
+
+INSERT INTO `tb_review` (`id`, `edate`, `ename`, `price`, `edesc`, `review`, `owner`, `uname`, `pid`, `img1`) VALUES 
+(1, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', 'asdasd', 'raja', 're', 3, ''),
+(2, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', 'asdasd', 're', 'raja', 3, ''),
+(3, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', 'asdasd', 're', 'raja', 3, ''),
+(4, '26-01-2024', 'Dell Offer 50%', '50000', 'All Dell showroom', 'This is nice product  our detail', 'venkat', 'ramesh', 9, ''),
+(5, '26-01-2024', 'Mobile offer 2024', '50%', 'All product', 'asdasdasd', 're', 'ramesh', 3, 'post-2.jpg'),
+(6, '07-02-2024', 'Appo', '50%', 'All product', 'sadfsadfasdf', 'revathy', 'venkat', 3, 'post-2.jpg');
